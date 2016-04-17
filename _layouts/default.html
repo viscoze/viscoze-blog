@@ -7,14 +7,21 @@
 
     {% include header.html %}
 
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+          {{ content }}
+        </div>
       </div>
     </div>
 
+    <hr>
+
     {% include footer.html %}
 
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/clean-blog.min.js"></script>
   </body>
 
 </html>
